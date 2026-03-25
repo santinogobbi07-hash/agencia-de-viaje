@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cappeletti Viajes - Tu Agencia de Confianza</title>
+  <meta name="description" content="Cappeletti Viajes - Paquetes nacionales, internacionales y cruceros. Viaja con nosotros y descubrí el mundo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#inicio" class="logo">
+        <i class="fa-solid fa-plane-departure"></i>
+        <span>Cappeletti <strong>Viajes</strong></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#destinos">Destinos</a>
+        <a href="#paquetes">Paquetes</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto" class="btn-nav">Contactanos</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <span class="hero-badge"><i class="fa-solid fa-star"></i> Tu próxima aventura empieza acá</span>
+      <h1>Descubrí el mundo con <span class="highlight">Cappeletti Viajes</span></h1>
+      <p>Paquetes nacionales, internacionales y cruceros a tu medida. Te asesoramos en cada paso para que solo te preocupes de disfrutar.</p>
+      <div class="hero-btns">
+        <a href="#paquetes" class="btn btn-primary">Ver paquetes</a>
+        <a href="https://wa.me/5491160560530?text=Hola!%20Me%20gustar%C3%ADa%20consultar%20sobre%20sus%20paquetes%20de%20viaje." class="btn btn-whatsapp" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i> Consultar por WhatsApp
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#destinos"><i class="fa-solid fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <i class="fa-solid fa-globe"></i>
+        <span class="stat-num" data-target="50">0</span><span>+</span>
+        <p>Destinos</p>
+      </div>
+      <div class="stat-item">
+        <i class="fa-solid fa-users"></i>
+        <span class="stat-num" data-target="1200">0</span><span>+</span>
+        <p>Clientes felices</p>
+      </div>
+      <div class="stat-item">
+        <i class="fa-solid fa-suitcase-rolling"></i>
+        <span class="stat-num" data-target="10">0</span><span>+</span>
+        <p>Años de experiencia</p>
+      </div>
+      <div class="stat-item">
+        <i class="fa-solid fa-ship"></i>
+        <span class="stat-num" data-target="15">0</span><span>+</span>
+        <p>Cruceros disponibles</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DESTINOS ===== -->
+  <section class="destinos" id="destinos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nuestros servicios</span>
+        <h2>¿A dónde querés ir?</h2>
+        <p>Tenemos el paquete perfecto para vos, ya sea que sueñes con conocer Argentina, el mundo o los mares.</p>
+      </div>
+      <div class="destinos-grid">
+        <div class="destino-card" data-category="nacional">
+          <div class="destino-img">
+            <img src="https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=600&q=80" alt="Argentina destinos nacionales" loading="lazy" />
+            <div class="destino-overlay">
+              <a href="#paquetes" class="btn btn-sm">Ver paquetes</a>
+            </div>
+          </div>
+          <div class="destino-info">
+            <div class="destino-icon" style="background: #e0f2fe;">
+              <i class="fa-solid fa-map-location-dot" style="color: #0284c7;"></i>
+            </div>
+            <h3>Paquetes Nacionales</h3>
+            <p>Descubrí lo mejor de Argentina: Bariloche, Mendoza, Calafate, Cataratas y mucho más.</p>
+            <a href="#paquetes" class="link-arrow">Ver destinos <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="destino-card" data-category="internacional">
+          <div class="destino-img">
+            <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=600&q=80" alt="Destinos internacionales Europa" loading="lazy" />
+            <div class="destino-overlay">
+              <a href="#paquetes" class="btn btn-sm">Ver paquetes</a>
+            </div>
+          </div>
+          <div class="destino-info">
+            <div class="destino-icon" style="background: #fef3c7;">
+              <i class="fa-solid fa-earth-americas" style="color: #d97706;"></i>
+            </div>
+            <h3>Paquetes Internacionales</h3>
+            <p>Europa, Caribe, Miami, Cancún y más. Viajá al destino de tus sueños con todo incluido.</p>
+            <a href="#paquetes" class="link-arrow">Ver destinos <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="destino-card" data-category="crucero">
+          <div class="destino-img">
+            <img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=600&q=80" alt="Cruceros" loading="lazy" />
+            <div class="destino-overlay">
+              <a href="#paquetes" class="btn btn-sm">Ver paquetes</a>
+            </div>
+          </div>
+          <div class="destino-info">
+            <div class="destino-icon" style="background: #f0fdf4;">
+              <i class="fa-solid fa-ship" style="color: #16a34a;"></i>
+            </div>
+            <h3>Cruceros</h3>
+            <p>Navegá por el Caribe, el Mediterráneo o los fiordos noruegos a bordo de los mejores cruceros.</p>
+            <a href="#paquetes" class="link-arrow">Ver destinos <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PAQUETES ===== -->
+  <section class="paquetes" id="paquetes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Ofertas destacadas</span>
+        <h2>Paquetes imperdibles</h2>
+        <p>Elegí tu próximo destino y contactanos para obtener el mejor precio personalizado.</p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="filtros">
+        <button class="filtro-btn active" data-filter="all">Todos</button>
+        <button class="filtro-btn" data-filter="nacional">Nacionales</button>
+        <button class="filtro-btn" data-filter="internacional">Internacionales</button>
+        <button class="filtro-btn" data-filter="crucero">Cruceros</button>
+      </div>
+
+      <div class="paquetes-grid" id="paquetesGrid">
+
+        <!-- NACIONALES -->
+        <div class="paquete-card" data-category="nacional">
+          <div class="paquete-img">
+            <img src="https://images.unsplash.com/photo-1531761535209-180857e963b9?w=500&q=80" alt="Bariloche" loading="lazy" />
+            <span class="paquete-badge nacional">Nacional</span>
+          </div>
+          <div class="paquete-body">
+            <h3><i class="fa-solid fa-location-dot"></i> Bariloche</h3>
+            <p>Paisajes patagónicos únicos, nieve en invierno y aventura en verano. El clásico argentino que no podés perderte.</p>
+            <ul class="paquete-includes">
+              <li><i class="fa-solid fa-check"></i> Vuelos ida y vuelta</li>
+              <li><i class="fa-solid fa-check"></i> Hotel con desayuno</li>
+              <li><i class="fa-solid fa-check"></i> Traslados incluidos</li>
+            </ul>
+            <div class="paquete-footer">
+              <span class="paquete-precio">Consultar precio</span>
+              <a href="https://wa.me/5491160560530?text=Hola!%20Me%20interesa%20el%20paquete%20a%20Bariloche.%20%C2%BFMe%20pod%C3%A9s%20dar%20m%C3%A1s%20informaci%C3%B3n%3F" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i> Consultar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="paquete-card" data-category="nacional">
+          <div class="paquete-img">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80" alt="Mendoza" loading="lazy" />
+            <span class="paquete-badge nacional">Nacional</span>
+          </div>
+          <div class="paquete-body">
+            <h3><i class="fa-solid fa-location-dot"></i> Mendoza</h3>
+            <p>La tierra del vino, las bodegas y la cordillera. Ideal para parejas y amantes de la buena gastronomía.</p>
+            <ul class="paquete-includes">
+              <li><i class="fa-solid fa-check"></i> Vuelos ida y vuelta</li>
+              <li><i class="fa-solid fa-check"></i> Hotel con desayuno</li>
+              <li><i class="fa-solid fa-check"></i> City tour incluido</li>
+            </ul>
+            <div class="paquete-footer">
+              <span class="paquete-precio">Consultar precio</span>
+              <a href="https://wa.me/5491160560530?text=Hola!%20Me%20interesa%20el%20paquete%20a%20Mendoza.%20%C2%BFMe%20pod%C3%A9s%20dar%20m%C3%A1s%20informaci%C3%B3n%3F" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i> Consultar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="paquete-card" data-category="nacional">
+          <div class="paquete-img">
+            <img src="https://images.unsplash.com/photo-1601000938259-5eba76d1d2c2?w=500&q=80" alt="Cataratas del Iguazú" loading="lazy" />
+            <span class="paquete-badge nacional">Nacional</span>
+          </div>
+          <div class="paquete-body">
+            <h3><i class="fa-solid fa-location-dot"></i> Cataratas del Iguazú</h3>
+            <p>Una de las maravillas naturales del mundo. Una experiencia única que te va a dejar sin palabras.</p>
+            <ul class="paquete-includes">
+              <li><i class="fa-solid fa-check"></i> Vuelos ida y vuelta</li>
+              <li><i class="fa-solid fa-check"></i> Hotel con desayuno</li>
+              <li><i class="fa-solid fa-check"></i> Entrada al parque</li>
+            </ul>
+            <div class="paquete-footer">
+              <span class="paquete-precio">Consultar precio</span>
+              <a href="https://wa.me/5491160560530?text=Hola!%20Me%20interesa%20el%20paquete%20a%20Cataratas%20del%20Iguaz%C3%BA.%20%C2%BFMe%20pod%C3%A9s%20dar%20m%C3%A1s%20informaci%C3%B3n%3F" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i> Consultar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- INTERNACIONALES -->
+        <div class="paquete-card" data-category="internacional">
+          <div class="paquete-img">
+            <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=500&q=80" alt="Europa" loading="lazy" />
+            <span class="paquete-badge internacional">Internacional</span>
+          </div>
+          <div class="paquete-body">
+            <h3><i class="fa-solid fa-location-dot"></i> Europa Clásica</h3>
+            <p>París, Roma y Barcelona en un solo viaje. Arte, historia, gastronomía y los mejores paisajes del viejo mundo.</p>
+            <ul class="paquete-includes">
+              <li><i class="fa-solid fa-check"></i> Vuelos internacionales</li>
+              <li><i class="fa-solid fa-check"></i> Hoteles 3 y 4 estrellas</li>
+              <li><i class="fa-solid fa-check"></i> Traslados y guía</li>
+            </ul>
+            <div class="paquete-footer">
+              <span class="paquete-precio">Consultar precio</span>
+              <a href="https://wa.me/5491160560530?text=Hola!%20Me%20interesa%20el%20paquete%20a%20Europa%20Cl%C3%A1sica.%20%C2%BFMe%20pod%C3%A9s%20dar%20m%C3%A1s%20informaci%C3%B3n%3F" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i> Consultar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="paquete-card" data-category="internacional">
+          <div class="paquete-img">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500&q=80" alt="Cancún" loading="lazy" />
+            <span class="paquete-badge internacional">Internacional</span>
+          </div>
+          <div class="paquete-body">
+            <h3><i class="fa-solid fa-location-dot"></i> Cancún All Inclusive</h3>
+            <p>Playas de arena blanca, mar turquesa y resorts de lujo. El destino soñado para relajarte y disfrutar.</p>
+            <ul class="paquete-includes">
+              <li><i class="fa-solid fa-check"></i> Vuelos ida y vuelta</li>
+              <li><i class="fa-solid fa-check"></i> Hotel all inclusive</li>
+              <li><i class="fa-solid fa-check"></i> Traslados incluidos</li>
+            </ul>
+            <div class="paquete-footer">
+              <span class="paquete-precio">Consultar precio</span>
+              <a href="https://wa.me/5491160560530?text=Hola!%20Me%20interesa%20el%20paquete%20a%20Canc%C3%BAn.%20%C2%BFMe%20pod%C3%A9s%20dar%20m%C3%A1s%20informaci%C3%B3n%3F" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i> Consultar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="paquete-card" data-category="internacional">
+          <div class="paquete-img">
+            <img src="https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?w=500&q=80" alt="Miami Orlando" loading="lazy" />
+            <span class="paquete-badge internacional">Internacional</span>
+          </div>
+          <div class="paquete-body">
+            <h3><i class="fa-solid fa-location-dot"></i> Miami + Orlando</h3>
+            <p>Lo mejor de Florida: playas, shopping, Disney, Universal y todo lo que EEUU tiene para ofrecerte.</p>
+            <ul class="paquete-includes">
+              <li><i class="fa-solid fa-check"></i> Vuelos ida y vuelta</li>
+              <li><i class="fa-solid fa-check"></i> Hoteles seleccionados</li>
+              <li><i class="fa-solid fa-check"></i> Entradas a parques</li>
+            </ul>
+            <div class="paquete-footer">
+              <span class="paquete-precio">Consultar precio</span>
+              <a href="https://wa.me/5491160560530?text=Hola!%20Me%20interesa%20el%20paquete%20Miami%20%2B%20Orlando.%20%C2%BFMe%20pod%C3%A9s%20dar%20m%C3%A1s%20informaci%C3%B3n%3F" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i> Consultar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CRUCEROS -->
+        <div class="paquete-card" data-category="crucero">
+          <div class="paquete-img">
+            <img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=500&q=80" alt="Crucero Caribe" loading="lazy" />
+            <span class="paquete-badge crucero">Crucero</span>
+          </div>
+          <div class="paquete-body">
+            <h3><i class="fa-solid fa-ship"></i> Crucero por el Caribe</h3>
+            <p>Navegá por las islas más paradisíacas del Caribe a bordo de los cruceros más modernos del mundo.</p>
+            <ul class="paquete-includes">
+              <li><i class="fa-solid fa-check"></i> Cabina a bordo</li>
+              <li><i class="fa-solid fa-check"></i> Comidas incluidas</li>
+              <li><i class="fa-solid fa-check"></i> Escala en múltiples islas</li>
+            </ul>
+            <div class="paquete-footer">
+              <span class="paquete-precio">Consultar precio</span>
+              <a href="https://wa.me/5491160560530?text=Hola!%20Me%20interesa%20el%20Crucero%20por%20el%20Caribe.%20%C2%BFMe%20pod%C3%A9s%20dar%20m%C3%A1s%20informaci%C3%B3n%3F" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i> Consultar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="paquete-card" data-category="crucero">
+          <div class="paquete-img">
+            <img src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=500&q=80" alt="Crucero Mediterráneo" loading="lazy" />
+            <span class="paquete-badge crucero">Crucero</span>
+          </div>
+          <div class="paquete-body">
+            <h3><i class="fa-solid fa-ship"></i> Crucero Mediterráneo</h3>
+            <p>España, Italia, Grecia y más. Un viaje único por la historia y la cultura del Mediterráneo.</p>
+            <ul class="paquete-includes">
+              <li><i class="fa-solid fa-check"></i> Cabina a bordo</li>
+              <li><i class="fa-solid fa-check"></i> Pensión completa</li>
+              <li><i class="fa-solid fa-check"></i> Excursiones opcionales</li>
+            </ul>
+            <div class="paquete-footer">
+              <span class="paquete-precio">Consultar precio</span>
+              <a href="https://wa.me/5491160560530?text=Hola!%20Me%20interesa%20el%20Crucero%20Mediterr%C3%A1neo.%20%C2%BFMe%20pod%C3%A9s%20dar%20m%C3%A1s%20informaci%C3%B3n%3F" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i> Consultar
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== POR QUE ELEGIRNOS ===== -->
+  <section class="nosotros" id="nosotros">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">¿Por qué elegirnos?</span>
+        <h2>Viajás mejor con Cappeletti</h2>
+        <p>Más de una década ayudando a familias, parejas y amigos a vivir las mejores experiencias de viaje.</p>
+      </div>
+      <div class="beneficios-grid">
+        <div class="beneficio-card">
+          <div class="beneficio-icon">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <h3>Asesoramiento personalizado</h3>
+          <p>Te acompañamos desde la consulta hasta que llegás a destino. Atención real, sin bots.</p>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">
+            <i class="fa-solid fa-tag"></i>
+          </div>
+          <h3>Mejores precios</h3>
+          <p>Accedemos a tarifas exclusivas y te ofrecemos el mejor precio del mercado, siempre.</p>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3>Viaje seguro</h3>
+          <p>Trabajamos con las mejores aerolíneas, hoteles y proveedores. Tu tranquilidad es nuestra prioridad.</p>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">
+            <i class="fa-solid fa-credit-card"></i>
+          </div>
+          <h3>Facilidades de pago</h3>
+          <p>Cuotas sin interés y múltiples medios de pago para que nada te frene a viajar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA CONTACTO ===== -->
+  <section class="contacto" id="contacto">
+    <div class="container contacto-inner">
+      <div class="contacto-text">
+        <h2>¿Listo para tu próximo viaje?</h2>
+        <p>Escribinos por WhatsApp y te armamos un paquete a medida. Respondemos rápido.</p>
+        <ul class="contacto-info">
+          <li>
+            <i class="fa-brands fa-whatsapp"></i>
+            <a href="https://wa.me/5491160560530" target="_blank" rel="noopener">+54 9 11 6056-0530</a>
+          </li>
+        </ul>
+      </div>
+      <div class="contacto-cta">
+        <a href="https://wa.me/5491160560530?text=Hola!%20Me%20gustar%C3%ADa%20consultar%20sobre%20un%20viaje.%20%C2%BFMe%20pueden%20asesorar%3F" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i>
+          Escribinos ahora
+        </a>
+        <p class="contacto-hint">Respondemos en minutos</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#inicio" class="logo logo-white">
+          <i class="fa-solid fa-plane-departure"></i>
+          <span>Cappeletti <strong>Viajes</strong></span>
+        </a>
+        <p>Tu agencia de confianza para explorar el mundo sin preocupaciones.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#destinos">Destinos</a></li>
+          <li><a href="#paquetes">Paquetes</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Destinos</h4>
+        <ul>
+          <li><a href="#paquetes">Nacionales</a></li>
+          <li><a href="#paquetes">Internacionales</a></li>
+          <li><a href="#paquetes">Cruceros</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contacto</h4>
+        <a href="https://wa.me/5491160560530" class="footer-wa" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i> +54 9 11 6056-0530
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Cappeletti Viajes. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ===== WHATSAPP FLOTANTE ===== -->
+  <a href="https://wa.me/5491160560530?text=Hola!%20Me%20gustar%C3%ADa%20consultar%20sobre%20sus%20paquetes%20de%20viaje." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="wa-tooltip">¡Hablanos!</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
