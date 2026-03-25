@@ -126,6 +126,16 @@ document.querySelectorAll('.faq-question').forEach(btn => {
   });
 });
 
+// ---------- TABS DE DESTINOS ----------
+document.querySelectorAll('.region-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.region-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.destinos-region').forEach(r => r.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('region-' + tab.dataset.region).classList.add('active');
+  });
+});
+
 // ---------- ACTIVE LINK EN SCROLL ----------
 const sections   = document.querySelectorAll('section[id]');
 const navAnchors = document.querySelectorAll('.nav-links a:not(.btn-nav)');
